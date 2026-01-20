@@ -105,7 +105,7 @@ function App() {
             headerStyle={{ width: '2rem' }}
           />
           <Column field="title" header="Title" />
-          <Column field="place_of_origin" header="Origin" />
+          <Column field="place_of_origin" header="Place of Origin" />
           <Column field="artist_title" header="Artist" />
           <Column field="inscriptions" header="Inscription" body={(row) => row.inscriptions || "N/A"} />
           <Column field="date_start" header="Start Date" />
