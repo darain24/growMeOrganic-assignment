@@ -36,7 +36,7 @@ function App() {
 
   const handleBulkSelect = () => {
     if (!selectCount || selectCount <= 0 || selectCount >= 13) {
-      setError('Please enter a number between 1 and 12')
+      setError('Enter a valid number')
       return
     }
 

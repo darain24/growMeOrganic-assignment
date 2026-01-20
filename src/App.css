@@ -84,6 +84,22 @@
   @apply mx-2;
 }
 
+.styled-datatable .p-checkbox-box {
+  border: 2px solid #6b7280 !important;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.25rem;
+}
+
+.styled-datatable .p-checkbox.p-highlight .p-checkbox-box {
+  border-color: #2563eb !important;
+  background-color: #2563eb !important;
+}
+
+.styled-datatable .p-checkbox:not(.p-disabled):hover .p-checkbox-box {
+  border-color: #4b5563 !important;
+}
+
 .dropdown-button {
   background-color: white !important;
   border: 1px solid #cbd5e1 !important;
